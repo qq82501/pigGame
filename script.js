@@ -69,7 +69,7 @@ const holdHandler = function () {
       score[activedPlayer];
 
     //2. if score >= 40 , the player won, and game stop.
-    if (score[activedPlayer] >= 10) {
+    if (score[activedPlayer] >= 40) {
       //adding winner style
       document
         .querySelector(`.player--${activedPlayer}`)
